@@ -1,7 +1,0 @@
-name: lab1
-dependencies:
-  - python=3.10
-  - pip
-  - pip:
-    - ipykernel
-    
