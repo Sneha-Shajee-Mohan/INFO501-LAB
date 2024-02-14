@@ -24,7 +24,7 @@ def genius(search_term, per_page=15):
 
     try:
         
-        genius_search_url = f"http://apigenius.com/search?q={search_term}&" + \
+        genius_search_url = f"http://api.genius.com/search?q={search_term}&" + \
                             f"access_token={ACCESS_TOKEN}&per_page={per_page}"
         response = requests.get(genius_search_url)
         json_data = response.json()
@@ -36,8 +36,7 @@ def genius(search_term, per_page=15):
               return None
     except requests.exceptions.RequestException as e:
         print(f"Error during API request: {e}")
-        exit(1)
-        #return None
+        return None
         
     
 
