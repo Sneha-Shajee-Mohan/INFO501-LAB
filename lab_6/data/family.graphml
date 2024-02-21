@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="shajee"/>
+<node id="sushama"/>
+<node id="shiva"/>
+<node id="sneha"/>
+<node id="vivek"/>
+<node id="vandana"/>
+<edge source="shajee" target="sushama"/>
+<edge source="shajee" target="shiva"/>
+<edge source="shajee" target="sneha"/>
+<edge source="sushama" target="sneha"/>
+<edge source="sushama" target="shiva"/>
+<edge source="shiva" target="sneha"/>
+<edge source="sneha" target="vivek"/>
+<edge source="vivek" target="vandana"/>
+</graph></graphml>
