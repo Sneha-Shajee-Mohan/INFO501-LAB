@@ -74,7 +74,7 @@ def genius_calling(search_terms):
 
     else:
         df = genius_to_df(search_term, n_results_per_term=n)
-        df_genius.to_csv('/Users/sneha/IUPUI-INFORMATICS/INFO501-LAB/lab_5/genius_data_mp.csv', index=False)
+        df.to_csv('/Users/sneha/IUPUI-INFORMATICS/INFO501-LAB/lab_5/genius_data_mp.csv', index=False)
 
 
 
